@@ -10,8 +10,13 @@ import _thread
 import skvideo.io
 from queue import Queue, Empty
 from model.pytorch_msssim import ssim_matlab
+import sys
 
 warnings.filterwarnings("ignore")
+
+import sys
+if sys.version_info[0:2] != (3, 8):
+    raise Exception('Requires python 3.8')
 
 def transferAudio(sourceVideo, targetVideo):
     import shutil
