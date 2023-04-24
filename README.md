@@ -42,7 +42,6 @@ cd ECCV2022-RIFE
 python -m pip install -f https://download.pytorch.org/whl/cu110/torch_stable.html torch==1.7.1+cu110 torchvision==0.8.2
 python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r requirements.txt
-
 ```
 
 * Download the pretrained **HD** models from [here](https://drive.google.com/file/d/1APIzVeI-4ZZCEuIRE1m6WYfSCaOsi_7_/view?usp=sharing). (百度网盘链接:https://pan.baidu.com/share/init?surl=u6Q7-i4Hu4Vx9_5BJibPPA 密码:hfk3，把压缩包解开后放在 train_log/\*)
